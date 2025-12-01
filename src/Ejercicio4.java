@@ -25,11 +25,16 @@ public class Ejercicio4 {
                     System.out.println("Su saldo actual es: " + saldo);
                     break;
                 case 2:
-                    System.out.println("Cuanto efectivo va retirar? ");
-                    double valorRetiro = scanner.nextDouble();
-                    saldo -= valorRetiro;
-                    System.out.println("Su nuevo saldo es: $" + saldo);
-                    break;
+                    if(saldo < 1 ) {
+                        System.out.println("Su cuenta esta en: $" + saldo );
+                        System.out.println("Por favor deposite a su cuenta");
+                    } else {
+                        System.out.println("Cuanto efectivo va retirar? ");
+                        double valorRetiro = scanner.nextDouble();
+                        saldo -= valorRetiro;
+                        System.out.println("Su nuevo saldo es: $" + saldo);
+                        break;
+                    }
                 case 3:
                     System.out.println("Cuanto efectivo va a depositar? ");
                     double valorDeposito = scanner.nextDouble();

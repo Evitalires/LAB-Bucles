@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
         //Ejercicio1.Caja();
         //Ejercicio2.CalculadoraDescuentos();
-        Ejercicio3.tablaMultiplicarInteractiva();
+        //Ejercicio3.tablaMultiplicarInteractiva();
+        //Ejercicio4.CajeroAutomatico();
+        //Ejercicio5.GeneradorContraseñas();
     }
 }
