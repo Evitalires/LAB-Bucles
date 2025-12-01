@@ -7,5 +7,6 @@ public class Main {
         //Ejercicio3.tablaMultiplicarInteractiva();
         //Ejercicio4.CajeroAutomatico();
         //Ejercicio5.GeneradorContraseñas();
+        //Ejercicio6.ControlAsistenciaClase();
     }
 }
